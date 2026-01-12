@@ -1,0 +1,22 @@
+{
+  "name": "keep-it-secret",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "Samuel",
+  "license": "ISC",
+  "description": "A initial project to encrypt signature and conversation with any project with same credentials",
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^25.0.6",
+    "dotenv": "^17.2.3"
+  },
+  "type": "module"
+}
