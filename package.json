@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node-dev src/index.ts"
   },
   "author": "Samuel",
   "license": "ISC",
@@ -16,7 +16,8 @@
   "devDependencies": {
     "@types/crypto-js": "^4.2.2",
     "@types/node": "^25.0.6",
-    "dotenv": "^17.2.3"
-  },
-  "type": "module"
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
 }
